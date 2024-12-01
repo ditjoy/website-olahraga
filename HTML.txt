@@ -1,0 +1,60 @@
+HTML<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penulis & Industri Olahraga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Penulis</a></li>
+                <li><a href="#industry">Industri Olahraga</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Halaman Utama -->
+    <section id="home">
+        <h1>Selamat datang di Website Penulis dan Industri Olahraga</h1>
+        <p>Penulis ini mengkhususkan diri dalam penulisan tentang dunia olahraga, dari aspek bisnis hingga budaya.</p>
+    </section>
+
+    <!-- Tentang Penulis -->
+    <section id="about">
+        <h2>Tentang Penulis</h2>
+        <p>Penulis ini memiliki pengalaman bertahun-tahun dalam dunia olahraga, baik sebagai jurnalis, analis, maupun pengamat industri. Dia telah menulis berbagai artikel yang membahas perkembangan olahraga secara global.</p>
+    </section>
+
+    <!-- Industri Olahraga -->
+    <section id="industry">
+        <h2>Industri Olahraga</h2>
+        <p>Industri olahraga adalah sektor yang sangat besar, mencakup aspek bisnis, media, sponsorship, hingga aspek sosial dan budaya. Dalam beberapa dekade terakhir, olahraga telah berkembang menjadi industri global yang berpengaruh.</p>
+        <h3>Aspek Bisnis Olahraga</h3>
+        <p>Perkembangan teknologi, media sosial, dan sponsor besar menjadi penggerak utama dalam pertumbuhan industri olahraga. Olahraga kini tidak hanya soal kompetisi, tetapi juga tentang pemasaran dan hak siar televisi.</p>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form action="#">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Penulis & Industri Olahraga</p>
+    </footer>
+</body>
+</html>
